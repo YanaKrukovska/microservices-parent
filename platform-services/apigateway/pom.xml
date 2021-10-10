@@ -11,6 +11,11 @@
 
     <groupId>com.krukovska.microservices.platform.apigateway</groupId>
     <artifactId>apigateway</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>zuul</module>
+        <module>zuul-ui</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>

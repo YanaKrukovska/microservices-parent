@@ -3,24 +3,26 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>microservices-parent</artifactId>
-        <groupId>com.krukovska.microservices</groupId>
+        <artifactId>apigateway</artifactId>
+        <groupId>com.krukovska.microservices.platform.apigateway</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.krukovska.microservices.platform</groupId>
-    <artifactId>platform-services</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>apigateway</module>
-        <module>discovery</module>
-        <module>apigateway/zuul-ui</module>
-    </modules>
+    <groupId>com.krukovska.microservices.platform.apigateway.zuul</groupId>
+    <artifactId>zuul</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+            <version>2.2.0.RELEASE</version>
+        </dependency>
+    </dependencies>
 
 </project>
