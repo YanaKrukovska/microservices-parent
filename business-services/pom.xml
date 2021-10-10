@@ -11,6 +11,10 @@
 
     <groupId>com.krukovska.microservices.business</groupId>
     <artifactId>business-services</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>common</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
