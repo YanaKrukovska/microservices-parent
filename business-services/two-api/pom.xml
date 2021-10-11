@@ -3,20 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>platform-services</artifactId>
-        <groupId>com.krukovska.microservices.platform</groupId>
+        <artifactId>business-services</artifactId>
+        <groupId>com.krukovska.microservices</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.krukovska.microservices.platform.discovery</groupId>
-    <artifactId>discovery</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>eureka-server</module>
-        <module>eureka-client</module>
-        <module>feign-client</module>
-    </modules>
+    <groupId>com.krukovska.microservices.business.two-api</groupId>
+    <artifactId>two-api</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

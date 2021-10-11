@@ -9,16 +9,19 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.krukovska.microservices.business</groupId>
     <artifactId>business-services</artifactId>
     <packaging>pom</packaging>
+
     <modules>
         <module>common</module>
+        <module>one</module>
+        <module>two</module>
+        <module>two-api</module>
     </modules>
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
 </project>
