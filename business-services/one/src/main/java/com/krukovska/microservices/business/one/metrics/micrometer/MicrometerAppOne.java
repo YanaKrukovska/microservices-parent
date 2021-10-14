@@ -1,6 +1,6 @@
 package com.krukovska.microservices.business.one.metrics.micrometer;
 
-import io.micrometer.core.instrument.binder.JvmThreadMetrics;
+import io.micrometer.core.instrument.binder.jvm.JvmThreadMetrics;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;

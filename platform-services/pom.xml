@@ -15,7 +15,6 @@
     <modules>
         <module>apigateway</module>
         <module>discovery</module>
-        <module>apigateway/zuul-ui</module>
     </modules>
 
     <properties>
